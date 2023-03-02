@@ -342,6 +342,10 @@ button {
   padding: 0.5rem 0px;
 }
 
+.navbar-upper {
+  background-color: #006ba0;
+}
+
 .donate_bt {
   width: 170px;
   margin: 0 auto;
@@ -925,7 +929,19 @@ button {
   top: 70%;
 }
 
+#my_slider1 a.carousel-control-prev {
+  position: absolute;
+  left: 70px;
+  top: 70%;
+}
+
 #my_slider a.carousel-control-next {
+  position: absolute;
+  right: 70px;
+  top: 70%;
+}
+
+#my_slider1 a.carousel-control-next {
   position: absolute;
   right: 70px;
   top: 70%;
@@ -933,6 +949,17 @@ button {
 
 #my_slider .carousel-control-prev,
 #my_slider .carousel-control-next {
+  width: 55px;
+  height: 55px;
+  background-color: #006ba0;
+  opacity: 1;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 100%;
+}
+
+#my_slider1 .carousel-control-prev,
+#my_slider1 .carousel-control-next {
   width: 55px;
   height: 55px;
   background-color: #006ba0;
@@ -950,6 +977,13 @@ button {
   color: #ffffff;
 }
 
+#my_slider1 .carousel-control-prev:hover,
+#my_slider1 .carousel-control-next:hover,
+#my_slider1 .carousel-control-prev:focus,
+#my_slider1 .carousel-control-next:focus {
+  background: #121111;
+  color: #ffffff;
+}
 /* donatior section end */
 
 /* contact section start */
